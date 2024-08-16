@@ -1,0 +1,160 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+
+body{
+    background-image: url('https://st2.depositphotos.com/1177973/8125/i/450/depositphotos_81253236-stock-photo-musical-instruments-closeup.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container{
+  height: 100%;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  font-family: font-primary;
+  color: color-primary;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 32px;
+}
+
+.form-background{
+  width: 420px;
+  border-radius: 10px;
+  padding: 32px;
+  align-self: center;opacity: 0.8;
+  -moz-opacity:0.8;
+  filter: alpha(opacity=80);
+  -khtm-poacity:0.8;
+} 
+
+form{
+  text-transform: capitalize;
+  font-family: font-body;
+  text-align: center;
+}
+
+input{
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 30px;
+  border: 1px solid color-light-gray;
+  padding: 15px 20px;
+  color:#8498AF;
+  font-size: .9rem;
+  transition: .4s;
+  
+    &:last-child{
+    margin-bottom: 0;
+  }
+  &:focus{
+    
+.sign-up-divider{
+  font-family: font-primary;
+  text-align: center;
+  color: #C4C8D4;
+  font-size: .8rem;
+  letter-spacing: .5px;
+  padding: 24px 0;
+  
+  &::before{
+  content: '';
+  display: inline-block;
+  width: 27%;
+  margin-right: 5%;
+  height: 1px;
+  background: color-light-gray;
+  vertical-align: middle;
+}
+
+  &::after{
+    content: '';
+    display: inline-block;
+    width: 27%;
+    margin-left: 5%;
+    height: 1px;
+    background: color-light-gray;
+    vertical-align: middle;
+  }
+
+
+
+.social-media-icons{
+  text-align: center;
+  color: #fff;
+  
+    & li{
+    margin-right: 10px;
+    list-style: none;
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1rem;
+    line-height: .8rem;
+    transition: .3s;
+    display: relative;
+    padding-top: 15px;
+  }
+  
+  & li a{
+    color: #2e0d0d;
+    vertical-align: middle;
+    text-align: center;
+    top: 10px;
+  }
+  
+}
+
+li.google{
+  background: #EA5859;
+  &:hover{
+  background: darken(#EA5859,6%);
+  cursor: pointer;
+  }
+}
+
+li.facebook{
+  background: #527ED5;
+  &:hover{
+  background: darken(#527ED5,6%);
+  cursor: pointer;
+  }
+}
+
+li.twitter{
+  background: #61BDED;
+  &:hover{
+  background: darken(#61BDED,6%);
+  cursor: pointer;
+  }
+}
+
+
+.login{
+  text-align: center;
+  margin-top: 24px;
+  font-size: .8rem;
+  font-family: font-primary;
+  
+   & a{
+    margin-left: 4px;
+    text-decoration: none;
+}
